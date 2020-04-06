@@ -14,6 +14,7 @@ public class Choose_type extends AppCompatActivity {
         setContentView(R.layout.choose_type);
     }
 
+
     public void Fruit(View view) {
       // startActivity(new Intent(this,Sixth.class));
         String [] img_names={"Apple","Banana","Mango"};
