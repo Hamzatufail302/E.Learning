@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "93709520334",
+    "firebase_url": "https://e-learningdata.firebaseio.com",
+    "project_id": "e-learningdata",
+    "storage_bucket": "e-learningdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93709520334:android:4d86177bef1911f0896f9f",
+        "android_client_info": {
+          "package_name": "com.example.elearningfordeafanddumbkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93709520334-mpj275cu9b166ink1o07dln727etmpr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elearningfordeafanddumbkids",
+            "certificate_hash": "d382f6814f2f7433eea57d5ca470398f86b3de43"
+          }
+        },
+        {
+          "client_id": "93709520334-sj1b4pcs6t2jsh3mrn7rm8a050q6urt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elearningfordeafanddumbkids",
+            "certificate_hash": "fd70a4799edfce7d6acf75f57a418d474ba3a2ba"
+          }
+        },
+        {
+          "client_id": "93709520334-iknq0t0dnq57jsk1p5a1gbjkq9mc7f9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ16PlUdiTBVr124hf3VxhprgJU4Cotrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93709520334-iknq0t0dnq57jsk1p5a1gbjkq9mc7f9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

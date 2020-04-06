@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/choosetype"
+    tools:context=".Choose_type"
+    android:gravity="center"
+    android:layout_weight="12"
+    >
+    <LinearLayout
+        android:layout_weight="12"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <Button
+
+        android:onClick="Fruit"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        android:text="Fruit"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/buttonstype"
+
+        />
+    <Button
+
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Vegitables"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/buttonstype"
+
+        />
+    <Button
+
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Animals"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/buttonstype"
+
+        />
+    <Button
+
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/buttonstype"
+
+        />
+    <Button
+
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Gestures"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/buttonstype"
+
+        />
+
+
+    <Button
+
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Voices"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/buttonred"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+
+
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/gradient_button"
+            android:gravity="bottom"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kid_login"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/logback"
+  >
+<EditText
+    android:id="@+id/kidusername"
+    android:layout_marginTop="100dp"
+    android:hint="Email"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+/>
+    <EditText
+        android:id="@+id/kidpassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:layout_marginTop="30dp"
+        />
+    <Button
+        android:id="@+id/loginkid"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:background="@drawable/btn"
+
+        />
+    <TextView
+        android:id="@+id/kidregister"
+        android:gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:text="New user?Register now"
+        android:textColor="@color/blue"
+        />
+</LinearLayout>
